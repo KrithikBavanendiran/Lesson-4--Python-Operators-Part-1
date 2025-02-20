@@ -1,9 +1,10 @@
-print("We will calculate tghe average percentage of Raj's test scores:")
-Maths=40
-Science=70
-Hindi=50
-English=60
+print("We will calculate the average percentage of Raj's test scores:")
+Maths=int(input("Maths: "))
+Science=int(input("Science: "))
+Hindi=int(input("Hindi: "))
+English=int(input("English: "))
 sum=Maths+Science+Hindi+English
-average=sum/4
+percentage=(sum/400)*100
 print("calculating...")
-print("Here is Raj's average percentage, he scored", average)
+print(end="Percentage Mark=")
+print(percentage)
